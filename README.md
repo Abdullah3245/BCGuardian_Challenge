@@ -36,6 +36,7 @@ LLMs were used as a development aid only:
 <img width="624" height="122" alt="Screenshot 2026-02-03 at 10 49 29 PM" src="https://github.com/user-attachments/assets/52f11640-64e4-4c87-9ef5-1e8407a60885" /> <br>
 - To draft helper functions for fetching playlist items and video metadata <br>
 <img width="595" height="154" alt="Screenshot 2026-02-03 at 10 49 41 PM" src="https://github.com/user-attachments/assets/39e49556-baa7-4856-bc12-568deedf6818" /> <br>
+- Switched to OPENAI ChatGPT to keep the challenge confidential. Used ChatGPT to set up the Machine Learning Pipeline
 
 All final code was reviewed, simplified, and optimized to remove unnecessary API calls.
 
