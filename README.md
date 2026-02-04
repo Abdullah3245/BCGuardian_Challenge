@@ -67,8 +67,3 @@ The model is used for **triage and prioritization**, not legal determination.
 - Preservation is achieved via metadata, timestamps, and canonical URLs
 
 ---
-
-## Disclaimer
-
-This system provides **risk-based prioritization only**.
-Final determinations regarding copyright infringement must be made by qualified legal professionals.
