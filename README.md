@@ -1,9 +1,7 @@
 # YouTube Copyright Risk Detection
 
 In this challenge, I built an end-to-end system to identify and preserve YouTube videos
-that may be susceptible to copyright violations, using only **free and official APIs**.
-The goal is to **prioritize potentially risky content** without downloading videos or
-transcripts, which would violate YouTube’s Terms of Service.
+that may be susceptible to copyright violations.
 
 ---
 
@@ -29,16 +27,16 @@ to each video, allowing high-risk candidates to be ranked and exported for revie
 
 ## LLM Usage
 
-LLMs were used as a development aid only:
+LLMs were used to help code unfamiliar libraries which boosted productivity and efficiency:
 - To help design a regex for identifying valid YouTube channel IDs <br>
 <img width="623" height="103" alt="Screenshot 2026-02-03 at 10 49 05 PM" src="https://github.com/user-attachments/assets/cefed9f8-b8dc-4bfa-b943-bb49e65bb290" /> <br>
 - To understand YouTube Data API usage and pagination patterns <br>
 <img width="624" height="122" alt="Screenshot 2026-02-03 at 10 49 29 PM" src="https://github.com/user-attachments/assets/52f11640-64e4-4c87-9ef5-1e8407a60885" /> <br>
 - To draft helper functions for fetching playlist items and video metadata <br>
 <img width="595" height="154" alt="Screenshot 2026-02-03 at 10 49 41 PM" src="https://github.com/user-attachments/assets/39e49556-baa7-4856-bc12-568deedf6818" /> <br>
-- Switched to OPENAI ChatGPT to keep the challenge confidential. Used ChatGPT to set up the Machine Learning Pipeline
+- Switched to OPENAI ChatGPT to keep the challenge confidential. Used ChatGPT to set up the Machine Learning Pipeline.
 
-All final code was reviewed, simplified, and optimized to remove unnecessary API calls.
+All final code was reviewed, simplified, and optimized to remove unnecessary API calls or overheads which the LLM might have included.
 
 ---
 
@@ -51,7 +49,7 @@ All final code was reviewed, simplified, and optimized to remove unnecessary API
   - Channel description
   - Video title
   - Video description
-- Text is embedded using a transformer model (`all-MiniLM-L6-v2`)
+- Text is embedded using a transformer model (`all-MiniLM-L6-v2`) which is open source on hugging face
 - Structured features (views, likes, comments, license signals) are kept as separate numeric inputs
 - A **logistic regression model** is trained to output a risk probability for each video
 
