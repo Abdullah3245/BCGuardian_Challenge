@@ -31,11 +31,11 @@ to each video, allowing high-risk candidates to be ranked and exported for revie
 
 LLMs were used as a development aid only:
 - To help design a regex for identifying valid YouTube channel IDs <br>
-<img width="623" height="103" alt="Screenshot 2026-02-03 at 10 49 05 PM" src="https://github.com/user-attachments/assets/cefed9f8-b8dc-4bfa-b943-bb49e65bb290" />
+<img width="623" height="103" alt="Screenshot 2026-02-03 at 10 49 05 PM" src="https://github.com/user-attachments/assets/cefed9f8-b8dc-4bfa-b943-bb49e65bb290" /> <br>
 - To understand YouTube Data API usage and pagination patterns <br>
-<img width="624" height="122" alt="Screenshot 2026-02-03 at 10 49 29 PM" src="https://github.com/user-attachments/assets/52f11640-64e4-4c87-9ef5-1e8407a60885" />
+<img width="624" height="122" alt="Screenshot 2026-02-03 at 10 49 29 PM" src="https://github.com/user-attachments/assets/52f11640-64e4-4c87-9ef5-1e8407a60885" /> <br>
 - To draft helper functions for fetching playlist items and video metadata <br>
-<img width="595" height="154" alt="Screenshot 2026-02-03 at 10 49 41 PM" src="https://github.com/user-attachments/assets/39e49556-baa7-4856-bc12-568deedf6818" />
+<img width="595" height="154" alt="Screenshot 2026-02-03 at 10 49 41 PM" src="https://github.com/user-attachments/assets/39e49556-baa7-4856-bc12-568deedf6818" /> <br>
 
 All final code was reviewed, simplified, and optimized to remove unnecessary API calls.
 
